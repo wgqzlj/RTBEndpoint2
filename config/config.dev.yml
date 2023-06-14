@@ -1,0 +1,22 @@
+# 开发环境配置
+main:
+  listen: ":12345"
+  dev: true
+
+redisCluster:
+  conn: "127.0.0.1:6379"
+  password: ''
+
+cpsRedisCluster:
+  conn: "127.0.0.1:6379"
+  password: ''
+
+consoleServerEndpoint: "http://127.0.0.1:16688/"
+
+# consoleServerEndpoint: "https://console.bidbest.link/"
+
+statsServerHost: "http://192.168.1.6:12346"
+# statsServerHost: "https://stats.bon6688.com"
+landingPageServer: "127.0.0.1:23456"
+
+mysqlDSN: "root:123456@tcp(127.0.0.1:3306)/app_rtb?charset=utf8mb4&parseTime=True"

@@ -1,0 +1,21 @@
+# 正式环境配置
+main:
+  listen: ":5000"
+  dev: false
+
+redisCluster:
+  conn: "usredis.tc0nvb.clustercfg.usw1.cache.amazonaws.com:6379"
+  password: ''
+
+
+cpsRedisCluster:
+  conn: "usredis.tc0nvb.clustercfg.usw1.cache.amazonaws.com:6379"
+  password: ''
+
+consoleServerEndpoint: "https://console.bidbest.link/"
+
+statsServerHost: "https://stats.bon6688.com"
+
+landingPageServer: "lp.bomobisvr.com"
+
+mysqlDSN: "app_rtb:gV0QI7T_B*WGh8ru@tcp(rtb-db-cluster.cluster-ro-chfyqbmrvcdl.ap-southeast-1.rds.amazonaws.com:3306)/app_rtb?charset=utf8mb4&parseTime=True"
